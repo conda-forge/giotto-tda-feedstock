@@ -62,7 +62,7 @@ test:
 
 about:
   home: https://github.com/giotto-learn/giotto-learn
-  license: AGPL-3.0
+  license: AGPL-3.0-only
   license_file: LICENSE
   summary: 'Giotto-tda, a topological machine learning library'
   description: |
