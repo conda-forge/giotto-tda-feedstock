@@ -3,7 +3,7 @@ About giotto-tda
 
 Home: https://github.com/giotto-learn/giotto-learn
 
-Package license: AGPL-3.0
+Package license: AGPL-3.0-only
 
 Feedstock license: BSD-3-Clause
 
