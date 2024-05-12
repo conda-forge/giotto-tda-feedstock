@@ -5,9 +5,11 @@ Home: https://github.com/giotto-learn/giotto-learn
 
 Package license: AGPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/giotto-tda-feedstock/blob/master/LICENSE.txt)
 
 Summary: Giotto-tda, a topological machine learning library
+
+Documentation: https://giotto-ai.github.io/gtda-docs
 
 Giotto is a high-performance topological machine learning
 toolbox in Python that is fully
