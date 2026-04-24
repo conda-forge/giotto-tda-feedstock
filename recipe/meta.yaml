@@ -1,19 +1,19 @@
 {% set name = "giotto-tda" %}
-{% set version = "0.2.2" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  url: "https://github.com/giotto-ai/{{ name }}/archive/v{{ version }}.tar.gz"
-  sha256: 36e637a4cc9beb9454932534dbc790f0871698230546737e3eba101dd3ac1b4e
+  url: https://github.com/giotto-ai/{{ name }}/archive/v{{ version }}.tar.gz
+  sha256: 884aafded6daa687f77ca73597a3195a755dcad937391b433c15f1ff2be7e551
 
 build:
-  number: 2
+  number: 0
   skip: true  # [py<3 or vs<17]
   script:
-    - "{{ PYTHON }} -m pip install . -vv"
+    - {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -64,7 +64,7 @@ about:
   home: https://github.com/giotto-learn/giotto-learn
   license: AGPL-3.0-only
   license_file: LICENSE
-  summary: 'Giotto-tda, a topological machine learning library'
+  summary: Giotto-tda, a topological machine learning library
   description: |
     Giotto is a high-performance topological machine learning
     toolbox in Python that is fully
